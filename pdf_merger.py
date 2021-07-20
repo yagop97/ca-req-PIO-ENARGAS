@@ -6,7 +6,7 @@ import numpy as np
 import re
 
 # directory = r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Output\20003\20003_2018_04_MAQUINARIAS_1"
-directory = input("Ingreses carpeta de acrhivos: ")
+directory = input("Ingreses carpeta de acrhivos (sin comillas): ")
 #print(dirs)
 
 docs = []

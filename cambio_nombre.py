@@ -2,7 +2,7 @@ import re
 import shutil
 import os
 
-url_docs = r"G:\Proveedores\AUDITORIA PIO 2017AL2020\CGP\1er entrega\20003_2018_02_UNP-21-01-18_0"
+url_docs = input("Ingrese directorio (sin comillas): ")
 folders = os.listdir(url_docs)
 try:
     folders.remove("Thumbs.db")
