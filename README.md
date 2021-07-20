@@ -1,6 +1,7 @@
 # requerimiento-PIO-ENARGAS
 
 Guia paso por paso para poder usar los programas del requerimiento ENARGAS.
+El tutorial esta explicado para computadoras utilizando Windows.
 
 ## Instalación
 
@@ -15,6 +16,35 @@ Seleccionar la configuracion indicada y seguir los pasos para descargar ptyhon.<
 En caso de no poder instalar python, segui los pasos que se dan en <a href="https://github.com/yagopajarino/python-venv">este</a> repositorio.
 
 ### Descargar los archivos
-Descargar los archivos de este repositorio haciendo click <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/archive/refs/heads/main.zip">Aquí</a>
+Descargar los archivos de este repositorio haciendo click <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/archive/refs/heads/main.zip">aquí</a>.
+Descomprimir los archivos en una carpeta local de la computadora. (1)
 
-### Instalar 
+### Instalar librerias necesarias
+Python utiliza modulos y librerias de terceros que sirven para ahorrar codigo y no tener que andar escribiendo siempre las mismas funciones que sabes que vas a necesitar. Ademas de permitir la programación colaborativa.
+
+Abrir una pantalla de CMD, navegar hasta el directorio donde están guardados los archivos descargados (1) e instalar las dependencias con el siguiente comando:
+
+```
+pip install -r requirements.txt
+```
+
+<a href="http://www.falconmasters.com/offtopic/como-utilizar-consola-de-windows/">Cómo utilizar la consola de Windows</a> en caso de no saber como se navega hasta la carpeta de archivos.
+
+## Uso
+Seguir los pasos descriptos en <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/tree/main/Workflow">Workflow</a>
+
+## Contacto
+Cualquier duda, consulta, recomendación <a href="yagopajarino.com.ar/contac">contacto</a>
+
+## Donar
+Este repositorio es de uso libre bajo licencia MIT pero cualquier donación ayuda a mantenero y mejorarlo.
+
+<dl>
+  <dt>Mercadopago</dt>
+  <dd>ARS 100 a traves de mercadopago <a href="https://mpago.la/1ajy5gq">Aquí</a></dd>
+  <dd>ARS 500 a traves de mercadopago <a href="https://mpago.la/1ZDRLo4">Aquí</a></dd>
+  <dt>MODO</dt>
+  <dd>ARS 100 a traves de MODO <a href="https://www.modo.com.ar/coupon/?id=4DMw4lAphaiczkIDm4J7XU">Aquí</a></dd>
+  <dd>ARS 500 a traves de MODO <a href="https://www.modo.com.ar/coupon/?id=LTCa2l9PtoqujxnMiGawL">Aquí</a></dd>
+</dl>
+ 
