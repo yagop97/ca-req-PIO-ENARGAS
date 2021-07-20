@@ -10,7 +10,7 @@ Si tenés instalado python en tu compu podes saltear este paso.
 
 Python es un lenguaje de programación amigable y open source, mas info en <a href="https://www.python.org/">https://www.python.org/</a>
 
-Seleccionar la configuracion indicada y seguir los pasos para descargar ptyhon.<br>
+Seleccionar la descarga de acuerdo a la configuración de tu computadora y seguir los pasos de instalación.<br>
 <a href="https://www.python.org/downloads/">Descargas python</a><br>
 
 En caso de no poder instalar python, segui los pasos que se dan en <a href="https://github.com/yagopajarino/python-venv">este</a> repositorio.
