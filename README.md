@@ -1,11 +1,11 @@
-# requerimiento-PIO-ENARGAS
+# requerimiento-PIO-ENARGAS :memo:
 
 Guia paso por paso para poder usar los programas del requerimiento ENARGAS.
 El tutorial esta explicado para computadoras utilizando Windows.
 
-## Instalación
+## Instalación :wrench:
 
-### Descargar python
+### Descargar python :snake:
 Si tenés instalado python en tu compu podes saltear este paso.
 
 Python es un lenguaje de programación amigable y open source, mas info en <a href="https://www.python.org/">https://www.python.org/</a>
@@ -19,7 +19,7 @@ En caso de no poder instalar python, segui los pasos que se dan en <a href="http
 Descargar los archivos de este repositorio haciendo click <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/archive/refs/heads/main.zip">aquí</a>.
 Descomprimir los archivos en una carpeta local de la computadora. (1)
 
-### Instalar librerias necesarias
+### Instalar librerias necesarias :books:
 Python utiliza modulos y librerias de terceros que sirven para ahorrar codigo y no tener que andar escribiendo siempre las mismas funciones que sabes que vas a necesitar. Ademas de permitir la programación colaborativa.
 
 Abrir una pantalla de CMD, navegar hasta el directorio donde están guardados los archivos descargados (1) e instalar las dependencias con el siguiente comando:
@@ -33,10 +33,10 @@ pip install -r requirements.txt
 ## Uso
 Seguir los pasos descriptos en <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/tree/main/Workflow">Workflow</a>
 
-## Contacto
-Cualquier duda, consulta, recomendación <a href="yagopajarino.com.ar/contac">contacto</a>
+## Contacto 
+Cualquier duda, consulta, recomendación :point_right: <a href="yagopajarino.com.ar/contac">contacto</a>
 
-## Donar
+## Donar :money_with_wings:
 Este repositorio es de uso libre bajo licencia MIT pero cualquier donación ayuda a mantenero y mejorarlo.
 
 <dl>
