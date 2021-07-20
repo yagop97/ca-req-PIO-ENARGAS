@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Seguir los pasos descriptos en <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/tree/main/Workflow">Workflow</a>
 
 ## Contacto 
-Cualquier duda, consulta, recomendación :point_right: <a href="yagopajarino.com.ar/contac">contacto</a>
+Cualquier duda, consulta, recomendación :point_right: <a href="yagopajarino.com.ar/contac">Get in touch</a>
 
 ## Donar :money_with_wings:
 Este repositorio es de uso libre bajo licencia MIT pero cualquier donación ayuda a mantenero y mejorarlo.
