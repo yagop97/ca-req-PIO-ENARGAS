@@ -15,7 +15,7 @@ Seleccionar la configuracion indicada y seguir los pasos para descargar ptyhon.<
 
 En caso de no poder instalar python, segui los pasos que se dan en <a href="https://github.com/yagopajarino/python-venv">este</a> repositorio.
 
-### Descargar los archivos
+### Descargar archivos
 Descargar los archivos de este repositorio haciendo click <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/archive/refs/heads/main.zip">aquí</a>.
 Descomprimir los archivos en una carpeta local de la computadora. (1)
 
