@@ -6,14 +6,12 @@ El tutorial esta explicado para computadoras utilizando Windows.
 ## Instalación :wrench:
 
 ### Descargar python :snake:
-Si tenés instalado python en tu compu podes saltear este paso.
-
 Python es un lenguaje de programación amigable y open source, mas info en <a href="https://www.python.org/">https://www.python.org/</a>
 
 Seleccionar la descarga de acuerdo a la configuración de tu computadora y seguir los pasos de instalación.<br>
 <a href="https://www.python.org/downloads/">Descargas python</a><br>
 
-En caso de no poder instalar python, segui los pasos que se dan en <a href="https://github.com/yagopajarino/python-venv">este</a> repositorio.
+Cuando abra el instalador acordate de seleccionar la opción que dice "Add Python to PATH".
 
 ### Descargar archivos
 Descargar los archivos de este repositorio haciendo click <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/archive/refs/heads/main.zip">aquí</a>.
