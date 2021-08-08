@@ -1,7 +1,5 @@
 # requerimiento-PIO-ENARGAS :memo:
 
-git pull1
-
 Guia paso por paso para poder usar los programas del requerimiento ENARGAS.
 El tutorial esta explicado para computadoras utilizando Windows.
 
