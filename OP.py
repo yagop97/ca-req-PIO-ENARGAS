@@ -4,12 +4,16 @@ import pandas as pd
 import numpy as np
 import re
 
-docs = pd.read_excel(r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Files\DOCS.xlsx")
-url = r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Files\OP"
+docs = pd.read_excel(r"Files\DOCS.xlsx")
+url = r"Files\OP"
 ops = os.listdir(url)
 reg = re.compile("OP0\d{1}(\d{10})")
 soc = str(docs.iloc[0,0])
-op_url = r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Output"
+try:
+    os.mkdir(r"Output")
+except: pass
+
+op_url = r"Output"
 nitems = len(ops)
 
 n=0
