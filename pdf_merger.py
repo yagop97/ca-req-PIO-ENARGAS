@@ -5,9 +5,7 @@ import pandas as pd
 import numpy as np
 import re
 
-# directory = r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Output\20003\20003_2018_04_MAQUINARIAS_1"
-directory = input("Ingreses carpeta de acrhivos (sin comillas): ")
-#print(dirs)
+directory = input("Ingreses carpeta de archivos (sin comillas): ")
 
 docs = []
 for file in os.listdir(directory):
