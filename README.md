@@ -29,7 +29,7 @@ pip install -r requirements.txt
 <a href="http://www.falconmasters.com/offtopic/como-utilizar-consola-de-windows/">Cómo utilizar la consola de Windows</a> en caso de no saber como se navega hasta la carpeta de archivos.
 
 ## Uso
-Seguir los pasos descriptos en la <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/wiki">Wiki</a>
+Seguir los pasos descriptos en la <a href="https://github.com/yagopajarino/ca-req-PIO-ENARGAS/wiki">Wiki</a>
 
 ## Contacto 
 Cualquier duda, consulta, recomendación :point_right: <a href="https://yagopajarino.github.io/repos-contact/?ca-req-PIO-ENARGAS">Get in touch</a>
