@@ -14,7 +14,7 @@ Seleccionar la descarga de acuerdo a la configuración de tu computadora y segui
 Cuando abra el instalador acordate de seleccionar la opción que dice "Add Python to PATH".
 
 ### Descargar archivos
-Descargar los archivos de este repositorio haciendo click <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/archive/refs/heads/main.zip">aquí</a>.
+Descargar los archivos de este repositorio haciendo click <a href="https://github.com/yagopajarino/ca-req-PIO-ENARGAS/archive/refs/heads/main.zip">aquí</a>.
 Descomprimir los archivos en una carpeta local de la computadora. (1)
 
 ### Instalar librerias necesarias :books:
@@ -34,7 +34,7 @@ Seguir los pasos descriptos en la <a href="https://github.com/yagopajarino/ca-re
 ## Contacto 
 Cualquier duda, consulta, recomendación :point_right: <a href="https://yagopajarino.github.io/repos-contact/?ca-req-PIO-ENARGAS">Get in touch</a>
 
-## Donar :money_with_wings:
+## Buy me a cafecito :money_with_wings:
 Este repositorio es de uso libre bajo licencia MIT pero cualquier donación ayuda a mantenero y mejorarlo.
 
 <a href="https://cafecito.app/yagopajarino">Buy me a <em>cafecito</em></a>
