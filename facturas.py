@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 
 
-docs = pd.read_excel(r'C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Files\DOCS.xlsx', converters={"PROVEEDOR":str})
-FBL1N = pd.read_excel(r'C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Files\FBL1N.xlsx',converters={"Acreedor":str,"Clave de referencia":str})
+docs = pd.read_excel(r'Files\DOCS.xlsx', converters={"PROVEEDOR":str})
+FBL1N = pd.read_excel(r'Files\FBL1N.xlsx',converters={"Acreedor":str,"Clave de referencia":str})
 
 nitems = docs.shape[0]
 
@@ -58,7 +58,6 @@ docs["URL_YEAR"] = n
 url_root = r'\\arfile01\buegadministracion\proveedores\facturas digitalizadas proveedores'
 docs["URL_END"] = docs["PROVEEDOR"].astype(str) + "-" + docs["URL_DOC"] + "-" + docs["URL_YEAR"].astype(str)
 docs["URL"] = url_root + "\\" + docs["SOC"] + "\\" + docs["URL_END"] + ".pdf"
-#docs.to_excel(r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\prueba.xlsx")
 
 #Función que prueba la existencia de PDF asociado a la ruta, guarda en una lista los que tienen PDF asociado y en otra los que no
 def get_dirs(serie):
@@ -89,7 +88,7 @@ for y in range(nitems):
 pdf = np.asarray(pdf)
 docs["PDF"] = pdf
 print("Docs sin PDF asociado: {}".format(len(sin_pdf)))
-docs.to_excel((r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\docs_expand.xlsx"))
+docs.to_excel((r"docs_pdf_sin_asociar.xlsx"))
 
 # Copiado de documentos PDF en carpeta sociedad\proyecto\OP
 for x in range(nitems):
@@ -98,7 +97,7 @@ for x in range(nitems):
         prov = docs["PROVEEDOR"][x]
         doc = docs["NRO_DOC"][x]
         year = docs["URL_YEAR"][x]
-        dest_fpath = os.path.join(r"C:\Users\ypajarino\Projects\2021.01.20 REQ PIO\Output",docs["SOCIEDAD"][x].astype(str),docs["PROYECTO"][x],docs["OP"][x].astype(str),f"{prov}-{doc}-{year}.pdf")
+        dest_fpath = os.path.join(r"Output",docs["SOCIEDAD"][x].astype(str),docs["PROYECTO"][x],docs["OP"][x].astype(str),f"{prov}-{doc}-{year}.pdf")
         try:
             shutil.copy(docs["URL"][x], dest_fpath)
         except:
