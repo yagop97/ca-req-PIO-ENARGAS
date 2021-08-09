@@ -1,4 +1,4 @@
-# requerimiento-PIO-ENARGAS :memo:
+# ca-req-PIO-ENARGAS :memo:
 
 Guia paso por paso para poder usar los programas del requerimiento ENARGAS.
 El tutorial esta explicado para computadoras utilizando Windows.
@@ -32,17 +32,10 @@ pip install -r requirements.txt
 Seguir los pasos descriptos en la <a href="https://github.com/yagopajarino/requerimiento-PIO-ENARGAS/wiki">Wiki</a>
 
 ## Contacto 
-Cualquier duda, consulta, recomendación :point_right: <a href="yagopajarino.com.ar/contac">Get in touch</a>
+Cualquier duda, consulta, recomendación :point_right: <a href="https://yagopajarino.github.io/repos-contact/?ca-req-PIO-ENARGAS">Get in touch</a>
 
 ## Donar :money_with_wings:
 Este repositorio es de uso libre bajo licencia MIT pero cualquier donación ayuda a mantenero y mejorarlo.
 
-<dl>
-  <dt>Mercadopago</dt>
-  <dd>ARS 100 a traves de mercadopago <a href="https://mpago.la/1ajy5gq">Aquí</a></dd>
-  <dd>ARS 500 a traves de mercadopago <a href="https://mpago.la/1ZDRLo4">Aquí</a></dd>
-  <dt>MODO</dt>
-  <dd>ARS 100 a traves de MODO <a href="https://www.modo.com.ar/coupon/?id=4DMw4lAphaiczkIDm4J7XU">Aquí</a></dd>
-  <dd>ARS 500 a traves de MODO <a href="https://www.modo.com.ar/coupon/?id=LTCa2l9PtoqujxnMiGawL">Aquí</a></dd>
-</dl>
+<a href="https://cafecito.app/yagopajarino">Buy me a <em>cafecito</em></a>
  
